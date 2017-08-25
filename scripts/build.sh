@@ -15,7 +15,7 @@ docker run --name mysql -d -p 3306:3306 \
 -e MYSQL_USER=$MYSQL_ROOT_PASSWORD \
 -e MYSQL_PASSWORD=$MYSQL_PASSWORD \
 -e MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD \
--e MYSQL_DATABASE=$MYSQL_DATABASE \
+-v $var/database:/var/lib/mysql \
 hypriot/rpi-mysql
 
 # phpmyadmin
