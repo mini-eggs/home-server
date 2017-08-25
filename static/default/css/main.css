@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 50px;
+  height: calc(100vh - 100px);
+  background-color: #f1f1f1;
+}
+
+h1 {
+  font-family: sans-serif;
+}
